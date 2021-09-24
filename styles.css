@@ -1,0 +1,30 @@
+@font-face {
+  font-family: 'alfabet';
+  src: url('/ALFABET_.ttf');
+ }
+
+ html,
+ body {
+   margin: 0;
+   padding: 0;
+ }
+
+#__next {
+  background-color: #0b0c06;
+  color: #fa3b54;
+  font-family: 'alfabet';
+  margin: 0;
+  padding: 0;
+}
+
+.mustakirja { 
+  align-items: center;
+  display: flex;
+  font-size: 2vw;
+  min-height: 100vh;
+  justify-content: center;
+}
+
+canvas {
+  display: block;
+}

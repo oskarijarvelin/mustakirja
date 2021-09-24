@@ -21,7 +21,7 @@
   ],
   "theme_color": "#fa3b54",
   "background_color": "#0b0c06",
-  "start_url": "mustakirja.vercel.app",
+  "start_url": "/",
   "display": "standalone",
   "orientation": "portrait"
 }

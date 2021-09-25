@@ -7,11 +7,11 @@ canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
 
 // Setting up the letters
-var letters = 'ABCDEFGHIJKLMNOPQRSTUVXYZABCDEFGHIJKLMNOPQRSTUVXYZABCDEFGHIJKLMNOPQRSTUVXYZABCDEFGHIJKLMNOPQRSTUVXYZABCDEFGHIJKLMNOPQRSTUVXYZABCDEFGHIJKLMNOPQRSTUVXYZ';
+var letters = 'TÄÄLLÄONMUUTAKINKUINSEMITÄMETIEDÄMMEJANÄEMMETOISETSEISAUTTAVATVERENVUODONKOSKEMATTAJOKUSAAPIHAPUUNKUKKIMAANMUITAAIKAISEMMINTEKEMÄTTÄMITÄÄN';
 letters = letters.split('');
 
 // Setting up the columns
-var fontSize = 10,
+var fontSize = 16,
     columns = canvas.width / fontSize;
 
 // Setting up the drops
@@ -22,7 +22,8 @@ for (var i = 0; i < columns; i++) {
 
 // Setting up the draw function
 function draw() {
-  ctx.fillStyle = 'rgba(11, 12, 6, .1)';
+  ctx.fillStyle = 'rgba(0, 0, 0, .15)';
+  ctx.font = '16px alfabet';
   ctx.fillRect(0, 0, canvas.width, canvas.height);
   for (var i = 0; i < drops.length; i++) {
     var text = letters[Math.floor(Math.random() * letters.length)];
@@ -36,4 +37,4 @@ function draw() {
 }
 
 // Loop the animation
-setInterval(draw, 33);
+setInterval(draw, 66);

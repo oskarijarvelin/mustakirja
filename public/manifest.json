@@ -1,6 +1,6 @@
 {
-  "name": "Mustakirja",
-  "short_name": "Mustakirja",
+  "name": "3",
+  "short_name": "4",
   "icons": [
     {
       "src": "icon.png",
@@ -19,7 +19,7 @@
       "type": "image/png"
     }
   ],
-  "theme_color": "#fa3b54",
+  "theme_color": "#0b0c06",
   "background_color": "#0b0c06",
   "start_url": "/",
   "display": "standalone",

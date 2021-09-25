@@ -5,16 +5,16 @@ export default function Index() {
     <div className="mustakirja">
       <Head>
         <title>Mustakirja</title>
-        <meta name='application-name' content='Mustakirja' />
+        <meta name='application-name' content='1' />
         <meta name='apple-mobile-web-app-capable' content='yes' />
         <meta name='apple-mobile-web-app-status-bar-style' content='default' />
-        <meta name='apple-mobile-web-app-title' content='Mustakirja' />
+        <meta name='apple-mobile-web-app-title' content='2' />
         <meta name='description' content='Mustakirja' />
         <meta name='format-detection' content='telephone=no' />
         <meta name='mobile-web-app-capable' content='yes' />
-        <meta name='msapplication-TileColor' content='#fa3b54' />
+        <meta name='msapplication-TileColor' content='#0b0c06' />
         <meta name='msapplication-tap-highlight' content='no' />
-        <meta name='theme-color' content='#fa3b54' />
+        <meta name='theme-color' content='#0b0c06' />
 
         <link rel='apple-touch-icon' href='/icon.png' />
         <link rel='apple-touch-icon' sizes='152x152' href='/icon.png' />
